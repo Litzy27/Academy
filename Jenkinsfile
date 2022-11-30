@@ -22,7 +22,7 @@ pipeline {
         stage('testing') {
             steps {
                 sh '''
-                
+                ls             
                 echo "tareas de testing"
                 '''
             }
